@@ -15,16 +15,29 @@ We've created and open-sourced this for a number of reasons which include the fo
 Visit [this map](https://ion28.github.io/BLUESPAWN/#layerURL=https%3A%2F%2Fion28.github.io%2FBLUESPAWN%2Fassets%2Fcoverage.json) to see current coverage capabilities
 
 ## Lines of Effort
-BLUESPAWN consists of 3 major modules as listed below. More information can be found on the Architecture page.
+BLUESPAWN consists of 5 major modules as listed below. Several of these modules have submodules (which may not be created in the codebase yet) as listed below and all are in varying stages of planning, research, and development.
 * Hunt
+    * Configuration & Settings
+    * File System
+    * Hunts
+    * Processes
 * Monitor
+    * ETW
+    * File Monitor
+    * Process Monitor
+    * Registry Monitor
+    * User Hooking
 * React
+    * Reactions
+* BLUESPAWN (Program main)
+* Logging
 
 ## Project Authors
 Made with love by the UVA Cyber Defense Team Windows Group
 * Jake Smith ([Github](https://github.com/ION28), [Twitter](https://twitter.com/jtsmith282))
 * Calvin Krist ([Github](https://github.com/CalvinKrist), [Twitter](https://twitter.com/CalvinKrist))
 * Jack McDowell ([Github](https://github.com/jnmcd/))
+* Will Mayes ([Github](https://github.com/wtm99), [Twitter](https://twitter.com/will_mayes99))
 
 ## Contributors
 Thanks to all of the folks listed below for their contributions to BLUESPAWN!
